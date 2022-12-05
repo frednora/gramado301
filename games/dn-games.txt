@@ -1,0 +1,13 @@
+
+
+	This is a funny plane.
+	A place for games, tests and hacks.
+
+----------------
+bin/
+    ...
+----------------
+game2/
+    It's working fine on qemu and virtualbox.
+    Sometimes it fails on kvm. ( Something is not working when using float variables).
+    

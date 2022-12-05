@@ -1,0 +1,27 @@
+
+    Guidelines for system initialization.
+
+-----------------------
+Launching the vm:
+    Go to kernel/ folder and type './run' or './runkvm'	
+
+-----------------------
+Boot interface:
+see: gramado/base/control/boot/x86/bm/shell32/
+You can type: 
+    bootjail for 320x200 resolution. 
+    bootp1  for 640x480 resolution.
+    boothome or boot for 800x600 resolution.
+    bootp2 (not working)
+    bootcali (not working)
+
+-----------------------
+Init process interface:
+see: gramado/base/exposed/arctic/init/
+You can type:
+    wsq   - Initialize the Desktop environment.
+    game1 - Start demo 1.
+    game2 - Start demo 2.
+    cls   - Clear the screen.
+
+
